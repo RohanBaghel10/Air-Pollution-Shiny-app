@@ -5,8 +5,8 @@ library(shinydashboard)
 library(shinythemes)
 
 # Read the CSV file and rename column
-AirPolData <- read.csv("/Users/rohanbaghel/Documents/Air pollution/Air-Pollution-Shiny-app/App-Air-Pollution/death-rate-from-air-pollution-per-100000.csv") %>%
-  rename(Deaths_per_100k = Deaths.that.are.from.all.causes.attributed.to.air.pollution.per.100.000.people..in.both.sexes.aged.age.standardized)
+AirPolData <- readr::read_csv("https://raw.githubusercontent.com/RohanBaghel10/Air-Pollution-Shiny-app/main/data/death-rate-from-air-pollution-per-100000.csv") %>%
+  rename(Deaths_per_100k = "Deaths that are from all causes attributed to air pollution per 100,000 people, in both sexes aged age-standardized")
 
 # Define UI
 ui <- dashboardPage(
