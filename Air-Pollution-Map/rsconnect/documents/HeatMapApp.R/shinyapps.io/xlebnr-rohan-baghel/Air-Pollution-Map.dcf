@@ -1,0 +1,12 @@
+name: Air-Pollution-Map
+title: Air-Pollution-Map
+username: xlebnr-rohan-baghel
+account: xlebnr-rohan-baghel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12143472
+bundleId: 8713252
+url: https://xlebnr-rohan-baghel.shinyapps.io/Air-Pollution-Map/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
